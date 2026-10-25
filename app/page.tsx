@@ -5,6 +5,8 @@ import NewsTicker from './components/NewsTicker'
 import NewsCard from './components/NewsCard'
 import { news } from './components/NewsCard'
 import Community from './components/Community'
+import GameBot from './components/GameBot'
+
 
 export default function Home() {
   return (
@@ -40,7 +42,7 @@ export default function Home() {
         <p style={{ fontFamily: 'Barlow Condensed, sans-serif', fontWeight: 900, fontSize: '24px', background: 'linear-gradient(90deg, #6C5CE7, #00D2D3)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', marginBottom: '8px' }}>GAMEPULSE</p>
         <p style={{ color: '#444', fontSize: '13px' }}>© 2026 GamePulse. Built for the global gaming community.</p>
         <Community />
-        
+        <GameBot />
       </footer>
     </main>
   )
