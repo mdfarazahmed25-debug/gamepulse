@@ -6,6 +6,8 @@ import NewsCard from './components/NewsCard'
 import { news } from './components/NewsCard'
 import Community from './components/Community'
 import GameBot from './components/GameBot'
+import MediaGallery from './components/MediaGallery'
+
 
 
 export default function Home() {
@@ -43,7 +45,9 @@ export default function Home() {
         <p style={{ color: '#444', fontSize: '13px' }}>© 2026 GamePulse. Built for the global gaming community.</p>
         <Community />
         <GameBot />
+        <MediaGallery />
       </footer>
     </main>
   )
 }
+
